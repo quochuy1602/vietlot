@@ -1,0 +1,133 @@
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+/*head */
+.top-info {
+  display: block;
+  overflow: hidden;
+  color: #f2f2f2;
+  padding: 8px 0;
+  font-size: 13px;
+  background: #1d1d1d;
+}
+.top-info ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.top-info ul li {
+  float: left;
+  margin-left: 10px;
+  font-weight: 600;
+}
+.top-info i {
+  color: #C41230;
+  font-size: 16px;
+  margin-right: 5px;
+}
+/*menu */
+ul.nav.navbar-nav li {
+  background-color: #fff;
+}
+ul.navbar-nav li a {
+  color: #272727;
+}
+ul.navbar-nav li a:hover,
+ul.navbar-nav li a:focus {
+  background: transparent;
+  color: #C41230;
+}
+ul.navbar-nav > li.active {
+  background: none;
+}
+ul.navbar-nav li.active > a,
+ul.navbar-nav > li.active.dropdown.open {
+  background: transparent;
+  color: #C41230;
+}
+ul.navbar-nav li.active > .dropdown-menu > li.active > a {
+  color: #C41230;
+}
+/*main*/
+.content-rs table {
+  border-bottom: 1px solid #E2E2E2;
+}
+.table>thead>tr>th, .table>tbody>tr>td, .table>tbody>tr>th {border-color:#E2E2E2;vertical-align: middle !important;}
+.logo-game img {
+  width: 120px;
+}
+.info-result-game span {
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #000;
+  border-right: 1px solid #ddd;
+}
+.content-rs ul {
+  margin: 0;
+  padding: 0;
+}
+.result-number  li {
+  list-style: none;
+  display: inline-block;
+  border: 3px solid #ed1d27;
+  background: #fff;
+  padding: 5px;
+  border-radius: 50%;
+  width: 47px;
+  height: 47px;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  font-weight: bold;
+  margin: 0 1px;
+  color: #000000;
+}
+/*footer */
+#footer-wrapper {
+  padding-top: 40px;
+}
+#footer {
+  padding: 40px 0;
+  background: #f2f2f2;
+  border-top: 1px solid #d7d7d7;
+}
+h3.footer-title {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 0;
+  padding-bottom: 20px;
+  position: relative;
+}
+.footer-about-us .desc {
+  padding: 20px 0 10px;
+}
+.footer-about-us .footer-social a {
+  color: #949494;
+  margin-right: 25px;
+}
+.footer-about-us .footer-social a i {
+  font-size: 18px;
+}
+.recent-post ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.recent-post ul li {
+  line-height: 20px;
+  border-bottom: 1px dashed #cecece;
+  position: relative;
+  margin-bottom: 10px;
+}
+.recent-post ul li span {
+  color: #323232;
+  padding-left: 15px;
+}
+.footer-bottom {
+  background: #C41230;
+}
+.footer-bottom .copyright-info {
+  margin: 20px 0;
+  font-size: 16px;
+  color: #fff;
+}

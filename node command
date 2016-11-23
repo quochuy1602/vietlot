@@ -1,0 +1,16 @@
+node command
+cd quickstart
+composer install
+php artisan migrate
+- create tables
+php artisan make:migration create_services_table --create=services
+
+- update table to database
+php artisan migrate
+composer dump-autoload
+php artisan migrate:rollback
+php artisan migrate --force
+
+"cossou/jasperphp": "1.0"
+
+npm run gulp
